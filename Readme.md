@@ -7,6 +7,8 @@ To install the necessary dependency for the project, use the following command:
 ```bash
 pip install customtkinter
 ```
+
+
 ### Interface Design
 Open the designer.py file to design the interface as per your preferences. Paste the created interface into the text-box within the data.txt file and save it.
 
