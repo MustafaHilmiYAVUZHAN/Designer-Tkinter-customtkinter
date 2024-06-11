@@ -470,11 +470,12 @@ data=[["lsbel1",[210,15,30,0],"label","Design your tkinter",'font=("Arial",25)',
       ["Box",[50,450,700,370],'textbox',"'data='+str(pro_data)",'font=("Arial",13)','root'],
 
       ]"""
-global data
+
 data_file=open("data.txt","r", encoding="utf-8")
 data=data_file.read()
 data_file.close()
 exec(data)
+global data
 global button_indices,entry_indices,image_indices,frame_indices
 button_indices=find_indices_by_value(data,"button")
 entry_indices=find_indices_by_value(data,"entry")
