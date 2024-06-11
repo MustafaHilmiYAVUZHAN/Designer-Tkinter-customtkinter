@@ -1,1 +1,1 @@
-data=[['frame', [100, 1, 600, 200], 'frame', 'cmd', '', 'root'], ['tabview', [10, 400, 600, 200], 'tabview', 'cmd', '', 'root'], ['tab', [10, 10, 0, 0], 'tab', 'cmd', '', 'tabview']]
+my_data=[['frame', [100, 1, 600, 200], 'frame', 'cmd', '', 'root'], ['tabview', [10, 400, 600, 200], 'tabview', 'cmd', '', 'root'], ['tab', [10, 10, 0, 0], 'tab', 'cmd', '', 'tabview']]
